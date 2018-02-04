@@ -1,0 +1,138 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+ul.navbar-nav, .jumbotron h1{
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.navbar-nav{
+	font-size:16px;
+}
+
+footer {
+	background-color: #f74c3c;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+
+#get-involved{
+    background-color: #f5f5f5;
+}
+
+.jumbotron {
+	text-align:center;
+	background-image: url(../images/hero_image.jpg);
+	color: white;
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	font-size: 60px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+    padding: 0px 50px;
+    font-size: 20px;
+}
+
+.btn-lg {
+	font-size:36px;
+}
+
+.homepage {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.homepage h2, .homepage h3{
+	color: #e74c3c;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;;
+}
+
+.homepage h2 {
+	font-size: 30px;
+}
+
+.homepage h3 {
+	font-size: 26px;
+}
+
+.homepage p {
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage hr {
+	border-top: 1px solid #e74c3c;
+	width: 160px;
+	margin-top: 15px;
+}
+
+.homepage a {
+	color: #e74c3c;
+}
+
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: 0.8;
+	background-color: #ebebeb;
+	border-color: #adadaa;
+}
+
+.col-md-4 a {
+	background-color: #ffffff;
+	border-color: #adadaa;
+}
+
+/*Responsive style*/
+@media (max-width: 1199px){
+  
+  .jumbotron h1 {
+      font-size: 50px;
+      margin-bottom: 30px;
+  }
+}  
+
+@media (max-width: 991px){
+  
+  .jumbotron h1 {
+      font-size: 40px;
+  }
+  .jumbotron p{
+  	padding: 0 10px;
+  }
+  #get-involved .col-md-4 {
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  } 
+}  
+
+@media (max-width: 767px){
+  
+  .jumbotron h1 {
+      font-size: 30px;
+  }
+  .jumbotron p {
+  	font-size: 18px;
+  	padding: 0;
+  }
+
+  .btn-lg {
+  	font-size: 18px;
+  }
+
+  .homepage p {
+  	font-size: 18px;
+  }
+
+  footer img {
+  	width: 65%;
+  }
+}  
